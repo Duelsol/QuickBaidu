@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">QuickBaidu</string>
+      <string name="baidu">百度一下,你就知道</string>
+</resources>
