@@ -1,4 +1,4 @@
-package com.duelsol.quickbaidu;
+package me.duelsol.quickbaidu;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;

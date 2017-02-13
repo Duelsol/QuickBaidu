@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.duelsol.quickbaidu"
+    package="me.duelsol.quickbaidu"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -9,7 +9,7 @@
         android:allowBackup="false"
         android:icon="@drawable/baidu"
         android:label="@string/app_name" >
-        <receiver android:name="com.duelsol.quickbaidu.QuickBaidu" >
+        <receiver android:name="me.duelsol.quickbaidu.QuickBaidu" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -21,7 +21,7 @@
         </receiver>
 
         <activity
-            android:name=".MyActivity"
+            android:name="me.duelsol.quickbaidu.MyActivity"
             android:theme="@style/transparent"
             android:windowSoftInputMode="stateVisible" >
             <intent-filter>

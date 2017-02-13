@@ -1,4 +1,4 @@
-package com.duelsol.quickbaidu;
+package me.duelsol.quickbaidu;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
